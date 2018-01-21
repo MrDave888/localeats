@@ -1,0 +1,14 @@
+<template name="home">
+  {{> header}}
+  <i class="ion-arrow-right-a arrow"></i>
+  <div class="places">
+  {{#each places}}
+    {{> place}}
+  {{/each}}
+  </div>
+  <a href="/upload" class="upload-link">
+    <p>
+      upload something gouda <i class="ion-arrow-up-a"></i>
+    </p>
+  </a>
+</template>

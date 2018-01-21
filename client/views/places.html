@@ -1,0 +1,26 @@
+<template name="places">
+  {{> header}}
+  <i class="ion-arrow-down-a arrow"></i>
+  <div class="place-container">
+    <h1 class="place-title">
+      {{place}}
+    </h1>
+    <div class="place-info">
+      <p>
+        {{address}}
+      </p>
+      <a href="{{site}}">
+        <p>
+          {{site}}
+        </p>
+      </a>
+      <p>
+        +{{number}}
+      </p>
+    </div>
+    <img src="{{img}}"/>
+    <h1 class="place-rating">
+      {{rating}} <i class="ion-asterisk"></i>
+    </h1>
+  </div>
+</template>
